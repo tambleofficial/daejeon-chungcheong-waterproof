@@ -1,0 +1,1 @@
+document.querySelector('.menubtn')?.addEventListener('click',e=>{document.body.classList.toggle('menu-open');e.currentTarget.setAttribute('aria-expanded',document.body.classList.contains('menu-open'))});
